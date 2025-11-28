@@ -1,29 +1,29 @@
-# 🌍 El Pulso de la Felicidad Mundial (2015-2024)
+# 🌍 El Pulso de la Felicidad Mundial - Dashboard Interactivo
 
-## 📊 Descripción del Proyecto
-[cite_start]Este repositorio alberga la **Fase 3: Implementación** del Dashboard interactivo "El Pulso de la Felicidad Mundial"[cite: 6, 18, 84]. [cite_start]El objetivo principal fue transformar el diseño conceptual en una herramienta funcional que permite visualizar y analizar los datos del **World Happiness Report (2015-2024)**[cite: 21].
+## Descripción del Proyecto
 
-[cite_start]El proyecto opera bajo una arquitectura **Cliente-Servidor** [cite: 78][cite_start]: el frontend es una aplicación de página única que consume datos filtrados por año y región a través de una API REST que gestiona la conexión con la base de datos[cite: 67, 68].
+**"El Pulso de la Felicidad Mundial"** es un *dashboard* interactivo desarrollado en **React** para visualizar y analizar los datos del **World Happiness Report (2015-2024)**.
 
-## 💻 Stack Tecnológico
-| Capa | Herramientas Principales | Uso Clave |
-| :--- | :--- | :--- |
-| **Frontend** | React, Vite, CSS Modules | [cite_start]Interfaz de usuario y componentes reutilizables (KPIs, Gráficos) [cite: 74, 79] |
-| **Visualización** | Recharts, React-Leaflet | Gráficos de Dispersión y Líneas (Recharts); [cite_start]Mapa Coroplético geográficamente correcto (React-Leaflet) [cite: 74, 232, 237] |
-| **Backend** | Node.js/Express, Axios | [cite_start]API REST para manejar consultas asíncronas y filtradas [cite: 74, 80] |
-| **Datos** | MySQL, GeoJSON | [cite_start]Almacenamiento persistente de datos del informe de felicidad y geometrías de países para el mapa [cite: 81, 255] |
+El objetivo principal fue transformar un diseño conceptual en una herramienta funcional, dinámica y con coherencia visual, permitiendo el análisis de los niveles de felicidad global y sus factores contribuyentes (como el PIB per cápita, el apoyo social y la esperanza de vida).
 
-## ✨ Visualizaciones y Características Clave
-[cite_start]El dashboard respeta la jerarquía de la información al presentar[cite: 306]:
-* [cite_start]**Filtros Globales:** Permiten seleccionar Año y Región[cite: 198].
-* [cite_start]**KPIs Principales:** Muestran el Índice de Felicidad, PIB per cápita, Apoyo Social, Esperanza de Vida y Libertad[cite: 221, 222, 223, 224, 225, 226].
-* [cite_start]**Mapa Coroplético:** Visualiza la distribución geográfica de la felicidad por país[cite: 229, 231].
-* [cite_start]**Diagrama de Dispersión:** Identifica la correlación entre el Logaritmo del PIB per cápita y el Índice de Felicidad[cite: 235, 236].
-* [cite_start]**Análisis Detallado:** Incluye la Evolución temporal de la Esperanza de Vida por región y comparativas de los Top/Bottom 10 países en Apoyo Social[cite: 239, 245].
+## 🛠️ Tecnología y Arquitectura
 
----
+El proyecto utiliza una arquitectura **Cliente-Servidor**:
 
-## 🔗 Dashboard en vivo
+- **Frontend (Cliente):** React, Vite, Recharts, React-Leaflet, CSS Modules
+- **Backend (Servidor):** Node.js/Express, manejando consultas filtradas por año y región
+- **Base de Datos:** MySQL (almacenamiento persistente de datos)
 
-[Dashboard El Pulso de la Felicidad Mundial](https://proyecto1felicidad.vercel.app/)
-```
+## ✨ Características Clave
+
+- Visualización de Indicadores Clave de Rendimiento (KPIs) dinámicos
+- **Mapa Coroplético** interactivo para la distribución geográfica de la felicidad
+- **Diagrama de Dispersión** para analizar la correlación entre PIB y Felicidad
+- Gráficos de **Tendencias** y **Comparativas Regionales**
+- Implementación de una paleta de colores cálida y jerárquica para la coherencia visual
+
+## 🔗 Enlace al Dashboard
+
+Puedes explorar la herramienta interactiva en el siguiente enlace:
+
+**[https://proyecto1felicidad.vercel.app/](https://proyecto1felicidad.vercel.app/)**
