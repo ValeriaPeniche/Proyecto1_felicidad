@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-**"El Pulso de la Felicidad Mundial"** es un *dashboard* interactivo desarrollado en **React** para visualizar y analizar los datos del **World Happiness Report (2015-2024)**.
+**"El Pulso de la Felicidad Mundial"** es un dashboard interactivo desarrollado en **React** para visualizar y analizar los datos del **World Happiness Report (2015-2024)**.
 
 El objetivo principal fue transformar un diseño conceptual en una herramienta funcional, dinámica y con coherencia visual, permitiendo el análisis de los niveles de felicidad global y sus factores contribuyentes (como el PIB per cápita, el apoyo social y la esperanza de vida).
 
